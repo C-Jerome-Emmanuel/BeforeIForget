@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.chat-wallpaper {
+  background-color: #efeae2;
+  background-image: radial-gradient(#d1c7b7 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.25);
+}

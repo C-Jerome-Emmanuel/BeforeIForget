@@ -1,0 +1,7 @@
+{
+  "name": "Before I Forget",
+  "description": "A private journaling web app disguised as a chat app with AI companions, intelligent event detection, and mood-styled journal memories.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
